@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Ejer1 {
 
 	public static void main(String[] args) {
-	/*Crea un vector con un tamaño de 10, el algoritmo te solicitará por teclado 10
-números y terminará mostrando por pantalla la media de valores del vector.
+	/*Crea un vector con un tamaï¿½o de 10, el algoritmo te solicitarï¿½ por teclado 10
+nï¿½meros y terminarï¿½ mostrando por pantalla la media de valores del vector.
 	 */
-		int suma,vNumeros[];
+		float suma,vNumeros[];
 		float media;
-		vNumeros=new int[10];
+		vNumeros=new float[10];
 		Scanner leer=new Scanner(System.in);
 		
 		suma=0;
