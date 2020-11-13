@@ -14,8 +14,8 @@ public class Ejer4 {
 
 		int numero, vEdad[];
 		String vNombres[];
-		Scanner leer = new Scanner(System.in);
-		Scanner leerEdad = new Scanner(System.in);
+		Scanner leer = new Scanner(System.in);// este lee String
+		Scanner leerEdad = new Scanner(System.in);// Scanner creado por fallo a la hora de leer int y string
 		
 		System.out.println("Cuantos nombres quieres guardar?");
 		numero = leerEdad.nextInt();

@@ -24,7 +24,7 @@ mismo y devuelve la media de los valores del vector.
 			vNumeros[i]=leer.nextInt();
 			suma=suma+vNumeros[i];
 		}
-		media=suma/vNumeros;
+		media=suma/10;
 		System.out.println("la media de todos los numeros es " + media);
 		
 		

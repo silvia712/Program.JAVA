@@ -10,16 +10,17 @@ public static int suma(String frase,String letra) {
 		if (frase.substring(i, i + 1).equalsIgnoreCase(letra)) {
 			suma = suma + 1;
 		}
+		return suma;
 	}
-	return suma;
-}
+	
+
 
 
 public class Ejer10_funcion {
 
 	public static void main(String[] args) {
 		/*
-		 * Hacer un pseudocódigo que cuente las veces que aparece una determinada letra
+		 * Hacer un pseudocï¿½digo que cuente las veces que aparece una determinada letra
 		 * en una frase que introduciremos por teclado.
 		 */
 
