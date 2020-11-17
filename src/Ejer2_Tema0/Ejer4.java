@@ -9,7 +9,7 @@ public class Ejer4 {
 		int suma;
 		suma=0;
 		
-		for (int i=0;i<101;i++) {
+		for (int i=1;i<=100;i++) {
 			suma=suma+i;	
 		}
 		System.out.println("la suma de todos los numeros hasta 100 es " + suma);

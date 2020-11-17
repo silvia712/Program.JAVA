@@ -2,14 +2,24 @@ package Vectores;
 
 import java.util.Scanner;
 
+public static float calcularmedia(int vNumeros[]) {
+	
+	float calcularmedia;
+	
+	
+	
+	
+	
+	return calcularmedia; 
+}
 
 public class Ejer2 {
 
 	public static void main(String[] args) {
-		/*- Realiza el problema anterior creando una funciï¿½n (subproceso)
-ï¿½calcular_mediaï¿½ la cual reciba como parï¿½metros un vector, el tamaï¿½o del
+	/*Realiza el problema anterior creando una función (subproceso)
+“calcular_media” la cual reciba como parámetros un vector, el tamaño del
 mismo y devuelve la media de los valores del vector.
-		 */
+	 */
 
 		int suma,vNumeros[];
 		float media;
@@ -23,9 +33,11 @@ mismo y devuelve la media de los valores del vector.
 		for (int i = 0; i < vNumeros.length; i++) {
 			vNumeros[i]=leer.nextInt();
 			suma=suma+vNumeros[i];
+			media=suma/10;
+			
 		}
-		media=suma/10;
-		System.out.println("la media de todos los numeros es " + media);
+		
+		System.out.println("la media de todos los numeros es " + calcularmedia(vNumeros[]));
 		
 		
 	}

@@ -7,7 +7,7 @@ public class Ejer2 {
 decreciente.
 		 */
 		
-		for (int i=100;i>-1;i--) {
+		for (int i=100;i>=1;i--) {
 			System.out.print(i + " ");
 		}
 		

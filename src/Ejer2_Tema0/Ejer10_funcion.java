@@ -2,25 +2,25 @@ package Ejer2_Tema0;
 
 import java.util.Scanner;
 
-
-public static int suma(String frase,String letra) {
-		int suma=0;
-		
-	for (int i = 0; i < frase.length(); i++) {
-		if (frase.substring(i, i + 1).equalsIgnoreCase(letra)) {
-			suma = suma + 1;
-		}
-		return suma;
-	}
-	
-
-
-
 public class Ejer10_funcion {
+	
+	
+	public static int sumaletra(String frase,String letra) {
+			int sumaletra;
+			sumaletra=0;
+		
+			for (int i = 0; i < frase.length(); i++) {
+				if (frase.substring(i, i + 1).equalsIgnoreCase(letra)) {
+					sumaletra = sumaletra + 1;
+		}
+	}
+	return sumaletra;
+}
+
 
 	public static void main(String[] args) {
-		/*
-		 * Hacer un pseudocï¿½digo que cuente las veces que aparece una determinada letra
+		
+		/* Hacer un pseudocódigo que cuente las veces que aparece una determinada letra
 		 * en una frase que introduciremos por teclado.
 		 */
 
@@ -32,7 +32,7 @@ public class Ejer10_funcion {
 		System.out.println("Que letra quieres buscar?");
 		letra = leer.nextLine();
 		
-		System.out.println("En la frase la letra " + letra + " aparece " + suma + " veces");
+		System.out.println("La letra " + letra + " aparece " + sumaletra(frase,letra)+ " veces");
 	}
 
 }

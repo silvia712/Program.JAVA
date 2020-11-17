@@ -11,14 +11,14 @@ impares.
 		sumapares=0;
 		sumaimpares=0;
 		
-		for (int i=1;i<101;i++) {
+		for (int i=1;i<=100;i++) {
 			System.out.print(i + " ");
 		}
 		
-		for (int i=0;i<101;i=i+2) {
+		for (int i=0;i<=100;i=i+2) {
 			sumapares=sumapares+i;
 		}
-		for (int j=1;j<101;j=j+2) {
+		for (int j=1;j<=100;j=j+2) {
 			sumaimpares=sumaimpares+j;
 		}
 			System.out.println(" ");

@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Ejer1 {
 
 	public static void main(String[] args) {
-	/*Crea un vector con un tamaï¿½o de 10, el algoritmo te solicitarï¿½ por teclado 10
-nï¿½meros y terminarï¿½ mostrando por pantalla la media de valores del vector.
+	
+		/*Crea un vector con un tamaño de 10, el algoritmo te solicitará por teclado 10
+números y terminará mostrando por pantalla la media de valores del vector.
 	 */
 		float suma,vNumeros[];
 		float media;
@@ -20,8 +21,9 @@ nï¿½meros y terminarï¿½ mostrando por pantalla la media de valores del vector.
 		for (int i = 0; i < vNumeros.length; i++) {
 			vNumeros[i]=leer.nextInt();
 			suma=suma+vNumeros[i];
+			media=suma/10;
 		}
-		media=suma/10;
+		
 		System.out.println("la media de todos los numeros es " + media);
 		
 	}

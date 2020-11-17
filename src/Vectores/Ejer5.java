@@ -23,15 +23,19 @@ public class Ejer5 {
 		mGente = new String[cantidad][2];
 
 		System.out.println("Escribe los nombres y sus edades");
+		
 		for (int i = 0; i < mGente.length; i++) {
 			for (int j= 0; j < mGente[i].length; j++) {
 				leer = new Scanner(System.in);
 				mGente[i][j] = leer.nextLine();
 			}
-
-			System.out.println(vGente[i][j]);
 		}
-
+			for (int i = 0; i < mGente.length; i++) {
+				for (int j= 0; j < mGente[i].length; j++) {
+				System.out.print(mGente[i][j] + " - ");
+			
+		}		
 	}
-
+	}
 }
+

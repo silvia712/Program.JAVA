@@ -2,7 +2,7 @@ package Ejer_Tema1;
 
 import java.util.Scanner;
 
-public class ejer1 {
+public class Ejer1 {
 
 	public static void main(String[] args) {
 		/*Realiza un algoritmo para que insertados los salarios de un número indeterminado de
@@ -22,14 +22,19 @@ ganan más de 500.
 		do {
 			System.out.println("Escribe un salario");
 			salario=leer.nextInt();
-			if (salario<200) {
-				menos200=menos200+1;
-			} else {
-				if (salario>=200 && salario<=500) {
-					entre=entre+1;
-				} else {
-					mas500=mas500+1;
-				}
+			
+			if (salario!=0) {
+				
+				if(salario<200) {
+					menos200=menos200+1;	
+				}else {
+					if (salario>=200 && salario<=500) {
+						entre=entre+1;
+					}else {
+						mas500=mas500+1;
+					}
+					
+				}	
 			}
 			
 		} while (salario!=0);
@@ -41,4 +46,3 @@ ganan más de 500.
 		}
 		
 	}
-

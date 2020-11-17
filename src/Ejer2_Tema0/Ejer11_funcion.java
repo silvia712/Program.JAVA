@@ -11,7 +11,7 @@ public class Ejer11_funcion {
 		for (int i = 1; i <= num; i++) {
 			factorial = factorial * i; 
 		}
-		return factorial; // retorno que llamremos desde el programa pricipal
+		return factorial; // retorno que llamaremos desde el programa pricipal
 		}
 	
 	

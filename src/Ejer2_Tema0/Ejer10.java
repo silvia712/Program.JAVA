@@ -9,7 +9,6 @@ public class Ejer10 {
 letra en una frase que introduciremos por teclado.
 		 */
 		
-		
 		String frase,letra;
 		int suma;
 		suma=0;
@@ -25,7 +24,7 @@ letra en una frase que introduciremos por teclado.
 				suma=suma+1;
 			}
 			
-		}System.out.println("En la frase la letra "+ letra + " aparece " + suma + " veces");
+		}System.out.println("La letra "+ letra + " aparece " + suma + " veces");
 		
 	}
 
