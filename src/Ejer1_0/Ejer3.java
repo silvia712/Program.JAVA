@@ -10,16 +10,15 @@ usar la estructura condicional SI)
 		 */
 		
 		int num1,num2;
-
+		
 		Scanner leer = new Scanner(System.in);
 		
-		System.out.println("escribe un numero");
+		System.out.println("Escribe dos numeros");
 		num1=leer.nextInt();
-		System.out.println("escribe un segundo numero");
 		num2=leer.nextInt();		
 		
 		if (num1>=num2) {
-			System.out.println("el mayor es " + num2);
+			System.out.println("el mayor es " + num1);
 		} else {
 			System.out.println("el mayor es " + num2);
 

@@ -21,9 +21,9 @@ public class Ejer2 {
 mismo y devuelve la media de los valores del vector.
 	 */
 
-		int suma,vNumeros[];
+		float suma,vNumeros[];
 		float media;
-		vNumeros=new int[10];
+		vNumeros=new float[10];
 		Scanner leer=new Scanner(System.in);
 		
 		suma=0;
@@ -37,7 +37,7 @@ mismo y devuelve la media de los valores del vector.
 			
 		}
 		
-		System.out.println("la media de todos los numeros es " + calcularmedia(vNumeros[]));
+		System.out.println("la media de todos los numeros es " + calcularmedia(vNumeros));
 		
 		
 	}

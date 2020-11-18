@@ -12,6 +12,5 @@ public class Ejer9 {
 				}	
 				System.out.println(" ");		
 			}
-		
 	}
 }

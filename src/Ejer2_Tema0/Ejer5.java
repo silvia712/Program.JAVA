@@ -10,18 +10,21 @@ public class Ejer5 {
 		
 		String letra;
 		Scanner leer= new Scanner(System.in);
-		letra="";
 		
 		System.out.println("Escribe una letra");
 		letra=leer.nextLine();
-		
-		do {
-			System.out.println("error de letra. Escribe una letra");
+	
+		while (letra.equalsIgnoreCase("s") || (letra.equalsIgnoreCase("n")){
+			System.out.println("error en letra. Escribe s o n");
 			letra=leer.nextLine();
+		}
+		do {
+			
 		} while (letra !="s" || letra!="n");
 		
-		
-	
+		if (letra.equalsIgnoreCase("s") || (letra.equalsIgnoreCase("n")){
+			System.out.println("acertaste");
+		}
 	}
 
 }

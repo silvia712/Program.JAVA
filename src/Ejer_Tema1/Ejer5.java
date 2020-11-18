@@ -15,13 +15,7 @@ public class Ejer5 {
 		num=leer.nextInt();
 		for (int i=0;i<=10;i++) {
 			tabla=num*i;
-			System.out.println(num + " x " + i + " = " + tabla);
-			
-			
+			System.out.println(num + " x " + i + " = " + tabla);		
 		}
-		
-		
-		
 	}
-
 }

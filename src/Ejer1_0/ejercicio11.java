@@ -10,23 +10,21 @@ tenerlo, se puede acceder si hemos superado una prueba de acceso.
 	 */
 		String respuesta;
 
-		
 		Scanner leer=new Scanner(System.in);
 
 		System.out.println("Para acceder a un grado superior tienes que tener el titulo de bachiller.Lo tienes?");
 		respuesta=leer.nextLine();
 
-		if (respuesta=="si") {
-				System.out.println("Perfeto. Puedes acceder");
+		if (respuesta.equalsIgnoreCase("si")) {
+				System.out.println("Perfecto. Puedes acceder");
 		}else 
 			System.out.println("Podrias acceder si tuvieras superada la prueba de acceso.La tienes?");
-			respuesta=leer.nextLine();
-			if	(respuesta=="no") {
-				System.out.println("lo sentimos pero no puedes acceder");
-			}else {
-				System.out.println("En ese caso, puedes acceder");
+				respuesta=leer.nextLine();
+				if(respuesta.equalsIgnoreCase("no")); {
+					System.out.println("Lo sentimos pero no puedes acceder");
+					}else{
+						System.out.println("En ese caso, puedes acceder");
 			}
-		
 		}
 	}	
 		

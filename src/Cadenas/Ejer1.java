@@ -16,8 +16,8 @@ partir de "Nacho" escribiría "ohcaN").
 		System.out.println("Escribe tu nombre");
 		nombre=leer.nextLine();
 		
-		for (int i=nombre.length(); i<0; i++){
-			System.out.println(nombre.substring(i,i+1));	
+		for (int i=nombre.length()-1; i>=0; i--){
+			System.out.print(nombre.substring(i,i+1));	
 		}
 	}
 

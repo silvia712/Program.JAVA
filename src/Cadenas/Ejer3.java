@@ -16,17 +16,18 @@ tiene 4 vocales).
 		vocales="aeiou";
 		suma=0;
 		
+		
 	System.out.println("Escribe tu nombre");
 	nombre=leer.nextLine();
 		
 	for (int i=0; i<nombre.length(); i++) {
-		for (int j=0; j<vocales.length();i++) {
-			if (nombre.equalsIgnoreCase("vocales")) {
-				suma++;
-				
+		for (int j=0; j<vocales.length();j++) {
+			if (nombre.substring(i,i+1).equalsIgnoreCase(vocales.substring(j,j+1))) {
+				suma++;	// suma=suma+1
+			} 	
 		}
-		}System.out.println("En tu nombre hay " + suma); 
+		}System.out.println("En tu nombre hay " + suma + " vocales ");
 	}
 	}
 
-}
+

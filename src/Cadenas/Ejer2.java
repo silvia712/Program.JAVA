@@ -10,19 +10,18 @@ nombre al usuario y lo escriba alternando letras mayúsculas y minúsculas
 (por ejemplo, "nAcho" se mostraría como "NaChO".
 	 */
 		
-		String nombre, alterno;
+		String nombre;
 		Scanner leer=new Scanner(System.in);
-		alterno="";
-		
+			
 		System.out.println("Escribe un nombre");
 		nombre=leer.nextLine();
+		
 		for (int i=0; i<nombre.length();i++) {
 			if (i % 2 == 0) {
-				alterno = alterno + nombre.toUpperCase();
+				System.out.print(nombre.substring(i,i+1).toUpperCase());
 			}else {
-				alterno = alterno + nombre.toLowerCase();
-			}			
-		}System.out.println(alterno);
+				System.out.print(nombre.substring(i,i+1).toLowerCase());
+			}
 	}
-
+	}
 }

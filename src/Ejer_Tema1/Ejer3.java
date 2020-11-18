@@ -26,5 +26,4 @@ escaleno.
 				System.out.println("Es un triangulo isosceles");
 			}			
 	}
-
 }

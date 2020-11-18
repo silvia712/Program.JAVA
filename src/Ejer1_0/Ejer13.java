@@ -18,7 +18,7 @@ queramos).
 
 	for (int i=1;i<num;i++) {
 		suma=suma+i;
-	}System.out.println("La suma de los numeros hasta " + num + " es igual a " + suma); 
+	}System.out.println("La suma de todos los numeros hasta " + num + " es de " + suma); 
 	
 
 	}

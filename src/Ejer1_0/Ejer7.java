@@ -12,7 +12,6 @@ regla de 3).
 		float niños, niñas; 
 		Scanner leer= new Scanner(System.in);
 				
-				
 		System.out.println("numero de niños en el centro");
 		niños=leer.nextInt();		
 		System.out.println("numero de niñas");

@@ -20,7 +20,7 @@ cuadrada se puede usar la función interna RAIZ(X) o con una potencia de 0,5.
 		
 	
 		if (num1>0) {
-			System.out.println(" Su cuadrado es " + Math.pow(num1,2) + " y su raiz cuadrada " + Math.pow(num1,0.5));
+			System.out.println("Su cuadrado es " + Math.pow(num1,2) + " y su raiz cuadrada " + Math.pow(num1,0.5));
 		}
 		else {
 			System.out.println("error de numero ");

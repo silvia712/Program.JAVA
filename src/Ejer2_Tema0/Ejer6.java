@@ -16,14 +16,13 @@ introducimos por teclado.
 		System.out.println("Escribe un numero");
 		num=leer.nextInt();
 		
-		for (int i=3; i < num; i=i+3) {
-			suma=suma+1;
-			System.out.printint();
+		System.out.println("Los multiplos de 3 desde 1 hasta " + num + " son: ");
+		for (int i=1;i<num;i++) {
+			if (i % 3 ==0) {
+				System.out.print(i + " ");	
+				}
+			}			
 		}
-		
-			
-		}
-		
 	}
 
 

@@ -11,7 +11,6 @@ public class Ejer4 {
 		int num; 
 		Scanner leer = new Scanner(System.in);
 		
-		
 		System.out.println("Escribe un numero");
 		num=leer.nextInt();
 		
@@ -20,7 +19,5 @@ public class Ejer4 {
 		}else {
 			System.out.println("Es un numero impar");
 		}
-		
 	}
-
 }

@@ -22,8 +22,8 @@ impares.
 			sumaimpares=sumaimpares+j;
 		}
 			System.out.println(" ");
-			System.out.println(" la suma de los numeros pares es " + sumapares);
-			System.out.println(" la suma de los numeros impares es " + sumaimpares);
+			System.out.println("La suma de los numeros pares es " + sumapares);
+			System.out.println("La suma de los numeros impares es " + sumaimpares);
 	}
 
 }
