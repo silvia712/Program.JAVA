@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class Ejer19 {
 
 	public static void main(String[] args) {
-	/*Leer tres números que denoten una fecha (día, mes, año). Comprobar que es una fecha válida.
-Si no es válida escribir un mensaje de error. Si es válida escribir la fecha cambiando el número del
-mes por su nombre. Ej. si se introduce 1 2 2006, se deberá imprimir “1 de febrero de 2006”. El año
+	/*Leer tres nï¿½meros que denoten una fecha (dï¿½a, mes, aï¿½o). Comprobar que es una fecha vï¿½lida.
+Si no es vï¿½lida escribir un mensaje de error. Si es vï¿½lida escribir la fecha cambiando el nï¿½mero del
+mes por su nombre. Ej. si se introduce 1 2 2006, se deberï¿½ imprimir ï¿½1 de febrero de 2006ï¿½. El aï¿½o
 debe ser mayor que 0. (Recuerda la estructura segun sea).
 	 */
 
-		int dia,mes,año;
+		int dia,mes,aÃ±o;
 		Scanner leer =new Scanner(System.in);
 		
 		System.out.println("Escribe una fecha (dd mm aaaa)");
 		dia=leer.nextInt();
 		mes=leer.nextInt();
-		año=leer.nextInt();
+		aÃ±o=leer.nextInt();
 		
-		if ((dia>=1 && dia<=31) && (mes>=1 && mes<=12) && (año>0)) {
+		if ((dia>=1 && dia<=31) && (mes>=1 && mes<=12) && (aÃ±o>0)) {
 			System.out.print(dia);
 			
 				switch (mes) {
@@ -60,7 +60,7 @@ debe ser mayor que 0. (Recuerda la estructura segun sea).
 			System.out.print(" de Diciembre de ");
 			break;
 				}
-			System.out.print(año);
+			System.out.print(aÃ±o);
 
 		}else {
 			System.out.print("error de fecha");
