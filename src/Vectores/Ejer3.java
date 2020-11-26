@@ -3,12 +3,21 @@ package Vectores;
 import java.util.Scanner;
 
 public class Ejer3 {
+	
+	public static void calculoMultiplos(int vMultiplos[],int num) {
+				
+		System.out.println("Son multiplos de " + num);
+		for (int i=0;i<vMultiplos.length;i++) {
+			vMultiplos[i]=num*i;	
+			System.out.print(vMultiplos[i] + " ");
+		} 	
+	}	
+		
 
 	public static void main(String[] args) {
-	/*Realiza el problema anterior creando una función (subproceso)
-“calcular_media” la cual reciba como parámetros un vector, el tamaño del
-mismo y devuelve la media de los valores del vector.
-*/
+	/*Crea un vector en el que le indiques el tamaño por teclado y crear una función
+que rellene el vector con los múltiplos de un número pedido por teclado.
+	 */
 		int num,multiplos,vMultiplos[];
 		Scanner leer= new Scanner(System.in);
 			
@@ -18,11 +27,7 @@ mismo y devuelve la media de los valores del vector.
 		
 		vMultiplos=new int[multiplos];
 		
-		for (int i=0; i<vMultiplos.length;i++) {
-			vMultiplos[i]=num*i;	
-			System.out.print(vMultiplos[i] + " ");
-		} 	
-
+		calculoMultiplos(vMultiplos, num);
 	}
 
 }

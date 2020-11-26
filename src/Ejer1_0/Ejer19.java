@@ -11,15 +11,15 @@ mes por su nombre. Ej. si se introduce 1 2 2006, se deber� imprimir �1 de fe
 debe ser mayor que 0. (Recuerda la estructura segun sea).
 	 */
 
-		int dia,mes,año;
+		int dia,mes,year;
 		Scanner leer =new Scanner(System.in);
 		
 		System.out.println("Escribe una fecha (dd mm aaaa)");
 		dia=leer.nextInt();
 		mes=leer.nextInt();
-		año=leer.nextInt();
+		year=leer.nextInt();
 		
-		if ((dia>=1 && dia<=31) && (mes>=1 && mes<=12) && (año>0)) {
+		if ((dia>=1 && dia<=31) && (mes>=1 && mes<=12) && (year>0)) {
 			System.out.print(dia);
 			
 				switch (mes) {
@@ -60,7 +60,7 @@ debe ser mayor que 0. (Recuerda la estructura segun sea).
 			System.out.print(" de Diciembre de ");
 			break;
 				}
-			System.out.print(año);
+			System.out.print(year);
 
 		}else {
 			System.out.print("error de fecha");

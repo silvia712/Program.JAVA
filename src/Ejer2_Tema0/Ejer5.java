@@ -14,17 +14,16 @@ public class Ejer5 {
 		System.out.println("Escribe una letra");
 		letra=leer.nextLine();
 	
-		while (letra.equalsIgnoreCase("s") || (letra.equalsIgnoreCase("n")){
+		do {
+			if (letra.equalsIgnoreCase("s") || letra.equalsIgnoreCase("n")){
+				System.out.println("Acertaste");
+				break;
+			}else {			
 			System.out.println("error en letra. Escribe s o n");
 			letra=leer.nextLine();
-		}
-		do {
-			
+			}
 		} while (letra !="s" || letra!="n");
-		
-		if (letra.equalsIgnoreCase("s") || (letra.equalsIgnoreCase("n")){
-			System.out.println("acertaste");
-		}
+	 }
 	}
 
-}
+

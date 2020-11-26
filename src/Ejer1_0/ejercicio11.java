@@ -17,13 +17,14 @@ tenerlo, se puede acceder si hemos superado una prueba de acceso.
 
 		if (respuesta.equalsIgnoreCase("si")) {
 				System.out.println("Perfecto. Puedes acceder");
-		}else 
+		}else {
 			System.out.println("Podrias acceder si tuvieras superada la prueba de acceso.La tienes?");
 				respuesta=leer.nextLine();
 				if(respuesta.equalsIgnoreCase("no")); {
 					System.out.println("Lo sentimos pero no puedes acceder");
-					}else{
+					}else {
 						System.out.println("En ese caso, puedes acceder");
+				}		
 			}
 		}
 	}	

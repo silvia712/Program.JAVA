@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Ejer6 {
-
+	
 	public static void main(String[] args) {
 		/*Crea una matriz de n x m donde n y m los leerás por teclado. Crea un
 procedimiento (subproceso) que te rellene la matriz con números aleatorios
@@ -26,16 +26,17 @@ matriz 3x2
 		Random azar = new Random();
 		
 		for (int i=0; i<mTabla.length; i++) {
-			for (int j=0; j<mTabla.length;j++) {
+			for (int j=0; j<mTabla[i].length;j++) {
 				mTabla[i][j]=azar.nextInt(9);				
 			}
 		}
 		for (int i=0; i<mTabla.length; i++) {
-			for (int j=0; j<mTabla.length;j++) {
+			for (int j=0; j<mTabla[i].length;j++) {
 				System.out.print(mTabla[i][j] + " ");				
 			}
+			System.out.println(" ");	
 		}
-		System.out.println(" ");
+		
 	}
 
 }

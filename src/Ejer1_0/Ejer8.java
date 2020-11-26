@@ -13,11 +13,11 @@ Dado un mes y un importe, calcular cuál es la cantidad que se debe cobrar al cli
 		String mes;
 		Scanner leerFloat=new Scanner(System.in);
 		Scanner leer=new Scanner(System.in);
-		mes=" ";
+		mes="";
 		precio=0;
 		
 		System.out.println("Precio del producto");
-		precio=leerFloat.nextInt();
+		precio=leerFloat.nextFloat();
 		System.out.println("Mes de la compra (letras)");
 		mes=leer.nextLine();
 		

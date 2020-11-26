@@ -16,7 +16,6 @@ tiene 4 vocales).
 		vocales="aeiou";
 		suma=0;
 		
-		
 	System.out.println("Escribe tu nombre");
 	nombre=leer.nextLine();
 		
