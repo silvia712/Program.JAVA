@@ -2,14 +2,14 @@ package Ejer_Tema1;
 
 import java.util.Scanner;
 
-public class Ejer1 {
+public class ejer1 {
 
 	public static void main(String[] args) {
-		/*Realiza un algoritmo para que insertados los salarios de un número indeterminado de
-empleados, el algoritmo nos calcule cuántos de ellos ganan más de 200€ y cuantos
-ganas más de 500€. Datos de entrada: Número de empleados, salario de cada uno de ellos.
- Datos de salida: Número de empleados que ganan más de 200€ y cuantos
-ganan más de 500. 
+		/*Realiza un algoritmo para que insertados los salarios de un nï¿½mero indeterminado de
+empleados, el algoritmo nos calcule cuï¿½ntos de ellos ganan mï¿½s de 200ï¿½ y cuantos
+ganas mï¿½s de 500ï¿½. Datos de entrada: Nï¿½mero de empleados, salario de cada uno de ellos.
+ Datos de salida: Nï¿½mero de empleados que ganan mï¿½s de 200ï¿½ y cuantos
+ganan mï¿½s de 500. 
 		 */
 
 		int salario,menos200,entre,mas500;
